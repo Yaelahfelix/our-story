@@ -5,12 +5,13 @@ import { motion } from "framer-motion";
 import { Button } from "@mui/material";
 import { useRouter } from "next/navigation";
 import { PacifioFont } from "@/lib/Fonts";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useAudio } from "@/lib/Audio";
 
 export default function Home() {
   const router = useRouter();
   const { playMusic, stopMusic, isPlaying } = useAudio();
+  const [isClicked, setIsClicked] = useState(false);
   return (
     <motion.div
       initial={{ x: -100, opacity: 0 }} // Start dari sebelah kiri dan tidak terlihat
@@ -27,12 +28,14 @@ export default function Home() {
         <Button
           variant="contained"
           color="secondary"
+          disabled={isClicked}
           onClick={() => {
             playMusic();
             router.push("/1");
+            setIsClicked(true);
           }}
         >
-          Klik aku dong :D
+          {isClicked ? "Loading..." : "Klik aku dong"}
         </Button>
       </div>
       <p className="text-xs mt-5 text-center text-slate-700">

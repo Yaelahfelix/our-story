@@ -70,7 +70,7 @@ export default function Slide1() {
               transition={{ duration: 1, ease: "easeInOut" }}
               className="slide-container"
             >
-              <div className="relative w-full h-full">
+              <div className="relative w-full h-full bg-slate-300">
                 <Image
                   src="/pic1.jpeg"
                   alt="pic1"
@@ -93,7 +93,7 @@ export default function Slide1() {
               }}
               className="slide-container"
             >
-              <div className="relative w-full h-full">
+              <div className="relative w-full h-full bg-slate-300">
                 <Image
                   src="/pic2.jpeg"
                   alt="pic2"
@@ -116,7 +116,7 @@ export default function Slide1() {
               }}
               className="slide-container"
             >
-              <div className="relative w-full h-full">
+              <div className="relative w-full h-full bg-slate-300">
                 <Image
                   src="/pic3.jpeg"
                   alt="pic3"
@@ -139,7 +139,7 @@ export default function Slide1() {
               }}
               className="slide-container"
             >
-              <div className="relative w-full h-full">
+              <div className="relative w-full h-full bg-slate-300">
                 <Image
                   src="/pic4.jpeg"
                   alt="pic4"
@@ -162,7 +162,7 @@ export default function Slide1() {
               }}
               className="slide-container"
             >
-              <div className="relative w-full h-full">
+              <div className="relative w-full h-full bg-slate-300">
                 <Image
                   src="/pic5.jpeg"
                   alt="pic5"
@@ -185,7 +185,7 @@ export default function Slide1() {
               }}
               className="slide-container"
             >
-              <div className="relative w-full h-full">
+              <div className="relative w-full h-full bg-slate-300">
                 <Image
                   src="/pic6.jpeg"
                   alt="pic6"
@@ -208,7 +208,7 @@ export default function Slide1() {
               }}
               className="slide-container"
             >
-              <div className="relative w-full h-full">
+              <div className="relative w-full h-full bg-slate-300">
                 <Image
                   src="/pic7.jpeg"
                   alt="pic7"
