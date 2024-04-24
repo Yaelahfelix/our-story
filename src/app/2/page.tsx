@@ -156,7 +156,7 @@ export default function Slide2() {
           >
             <iframe
               width="100%"
-              src="https://www.youtube.com/embed/GOuRw9K7W0c"
+              src="https://www.youtube.com/embed/p7jzVsM985g"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
